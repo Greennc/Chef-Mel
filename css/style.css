@@ -12,13 +12,16 @@ body {
 img {
   border: none;
 }
-
+nav {
+  background-color: inherit;
+}
 #mainNavbar .navbar-brand {
   /* color: #CD5C5C; */
   color: white;
   font-weight: 900;
-  font-size: 2.5rem;
-  font-family: bakersville;
+  font-size: 2.0rem;
+  font-family: 'Quicksand', sans-serif;
+
 
   }
 
@@ -33,11 +36,11 @@ img {
   font-size: 1.5rem;
   font-weight: 100;
 }
-#mainNavbar2{
+/* #mainNavbar2{
   font-size: 1.5rem;
   font-weight: 100;
   background-color: !important rgba(0, 0, 0, 0.7);
-}
+} */
 #headingGroup span {
   color: #CD5C5C;
 }
@@ -99,7 +102,7 @@ li {
 
 .foodHeader {
   /* font-family: 'Pacifico', cursive; */
-font-family: 'Coming Soon', cursive;
+font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
@@ -422,8 +425,7 @@ footer {
 
 /* catering page styling  */
 .fancyFont {
-  /* font-family: 'Pacifico', cursive; */
-  font-family: cate ;
+  font-family: 'Quicksand', sans-serif;
   color: gray;
   text-align: center;
   /* padding-left: 20px; */
